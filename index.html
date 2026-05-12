@@ -1,121 +1,276 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Segenet Mulatu</title>
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+
+  <title>Segenet Mulatu | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- Background Glow Effect -->
+
+  <!-- Background Glow -->
   <div class="bg-glow"></div>
 
   <!-- Main Wrapper -->
   <div class="wrapper">
-    
-    <!-- HERO SECTION -->
+
+    <!-- HERO -->
     <header class="hero fade-up">
-      <h1>Segenet Mulatu</h1>
-      <div class="badge">
+
+      <div class="hero-content">
+
+        <div class="hero-badge">
+          <i class="fas fa-code"></i>
+          Full Stack Developer
+        </div>
+
+        <h1>Segenet Mulatu</h1>
+
+        <p class="hero-description">
+          Building modern, responsive and user-friendly web & mobile experiences
+          with clean design and powerful functionality.
+        </p>
+
+        <div class="hero-tagline">
+
+          <span>
+            <i class="fas fa-globe"></i>
+            Web Developer
+          </span>
+
+          <span>
+            <i class="fas fa-mobile-screen-button"></i>
+            App Developer
+          </span>
+
+          <span>
+            <i class="fas fa-server"></i>
+            Full-Stack Creator
+          </span>
+
+        </div>
+
       </div>
-      <div class="hero-tagline">
-        <span><i class="fas fa-globe"></i> Web Developer</span>
-        <span><i class="fas fa-mobile-alt"></i> App Developer</span>
-        <span><i class="fas fa-code"></i> Full‑stack creator</span>
-      </div>
-      <div class="hero-divider"></div>
+
     </header>
 
-    <!-- ABOUT SECTION -->
+    <!-- ABOUT -->
     <section class="section-card fade-up delay-1">
+
       <h2>
-        <i class="fas fa-user-astronaut"></i> 
+        <i class="fas fa-user-astronaut"></i>
         About Me
       </h2>
+
       <div class="about-text">
-        <p>👋 I'm <strong>Segenet Mulatu</strong> — a developer with an eye for clean design and smart functionality. I turn ideas into sleek, responsive web & mobile experiences.</p>
-        <p>⚡ I thrive on modern stacks, from fluid UIs to backend logic. Every project is an opportunity to blend creativity with robust code. Let's build something exceptional.</p>
+
+        <p>
+          👋 I'm <strong>Segenet Mulatu</strong> — a passionate developer who
+          creates beautiful, responsive and high-performance digital products.
+        </p>
+
+        <p>
+          ⚡ I enjoy building modern websites and mobile applications using clean
+          UI, scalable backend systems and smooth user experiences.
+        </p>
+
       </div>
+
+      <!-- Skills -->
       <div class="skill-chips">
-        <span class="skill-chip"><i class="fab fa-react"></i> React</span>
-        <span class="skill-chip"><i class="fab fa-node"></i> Node.js</span>
+
+        <span class="skill-chip">
+          <i class="fab fa-html5"></i>
+          HTML5
+        </span>
+
+        <span class="skill-chip">
+          <i class="fab fa-css3-alt"></i>
+          CSS3
+        </span>
+
+        <span class="skill-chip">
+          <i class="fab fa-js"></i>
+          JavaScript
+        </span>
+
+        <span class="skill-chip">
+          <i class="fab fa-react"></i>
+          React
+        </span>
+
+        <span class="skill-chip">
+          <i class="fab fa-node-js"></i>
+          Node.js
+        </span>
+
       </div>
+
     </section>
 
-    <!-- PROJECTS SECTION -->
+    <!-- PROJECTS -->
     <section class="section-card fade-up delay-2">
+
       <h2>
-        <i class="fas fa-rocket"></i> 
+        <i class="fas fa-rocket"></i>
         Featured Projects
       </h2>
+
       <div class="project-grid">
-        
+
         <!-- Project 1 -->
-        <div class="project-item">
-          <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+        <article class="project-item">
+
+          <div class="project-icon">
+            <i class="fas fa-shirt"></i>
+          </div>
+
           <h3>Z_ናጭ Fashion Website</h3>
-          <p>A stylish online shopping platform for clothing brand and collection </p>
-          <span class="project-tag"><i class="far fa-star"></i> live demo</span>
-        </div>
+
+          <p>
+            A stylish and modern eCommerce platform for showcasing fashion
+            collections and online shopping experiences.
+          </p>
+
+          <span class="project-tag">
+            <i class="fas fa-star"></i>
+            Live Demo
+          </span>
+
+        </article>
 
         <!-- Project 2 -->
-        <div class="project-item">
-          <div class="project-icon"><i class="fas fa-check-circle"></i></div>
-          <h3>Travel and Tour Booking Website</h3>
-          <p>A modern booking system for tours,hotels and travel destinations.</p>
-          <span class="project-tag"><i class="fas fa-mobile-alt"></i> app · web</span>
-        </div>
+        <article class="project-item">
+
+          <div class="project-icon">
+            <i class="fas fa-plane-departure"></i>
+          </div>
+
+          <h3>Travel & Tour Booking</h3>
+
+          <p>
+            A responsive booking platform for tours, hotels and travel
+            destinations with modern UI and booking features.
+          </p>
+
+          <span class="project-tag">
+            <i class="fas fa-mobile-screen"></i>
+            App · Web
+          </span>
+
+        </article>
 
         <!-- Project 3 -->
-        <div class="project-item">
-          <div class="project-icon"><i class="fas fa-cloud-sun-rain"></i></div>
-          <h3>Hotel Booking Website</h3>
-          <p>A responsive hotel booking website with room booking,pricing and customer review sections</p>
-          <span class="project-tag"><i class="fas fa-map-pin"></i> live API</span>
-        </div>
+        <article class="project-item">
 
-    <!-- CONTACT SECTION -->
+          <div class="project-icon">
+            <i class="fas fa-hotel"></i>
+          </div>
+
+          <h3>Hotel Booking Website</h3>
+
+          <p>
+            A responsive hotel booking system featuring room reservations,
+            pricing, customer reviews and modern layouts.
+          </p>
+
+          <span class="project-tag">
+            <i class="fas fa-location-dot"></i>
+            Live API
+          </span>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
     <section class="section-card fade-up delay-3">
+
       <h2>
-        <i class="fas fa-paper-plane"></i> 
+        <i class="fas fa-paper-plane"></i>
         Let's Connect
       </h2>
+
       <div class="contact-flex">
+
+        <!-- Email -->
         <div class="contact-email">
+
           <i class="fas fa-envelope-open-text"></i>
-          <a href="mailto:segenetmulatu76@gmail.com">segenetmulatu76@gmail.com</a>
+
+          <a href="mailto:segenetmulatu76@gmail.com">
+            segenetmulatu76@gmail.com
+          </a>
+
         </div>
+
+        <!-- Social -->
         <div class="social-links">
-          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/segenet-mulatu-8b62453a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/segenet-mulatu-8b62453a6"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
     <!-- FOOTER -->
     <footer>
+
       <p>
-        <i class="fas fa-crown copyright-icon"></i>  
-        © 2026 Segenet Mulatu — designed with <i class="fas fa-heart heart-icon"></i> and code
+        <i class="fas fa-crown copyright-icon"></i>
+
+        © 2026 Segenet Mulatu — Designed with
+        <i class="fas fa-heart heart-icon"></i>
+        and code
+
         <i class="fas fa-crown copyright-icon"></i>
       </p>
+
       <p class="footer-tagline">
-        <i class="fas fa-microchip"></i> smart · modern · attractive
+        <i class="fas fa-microchip"></i>
+        Smart · Modern · Responsive
       </p>
+
     </footer>
+
   </div>
 
-  <!-- Custom JavaScript -->
-  <script src="script.js"></script>
 </body>
 </html>
