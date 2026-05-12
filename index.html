@@ -1,0 +1,54 @@
+Segenet Mulatu | Portfolio
+<header class="hero">
+  <div>
+    <h1>Segenet Mulatu</h1>
+    <p>Web Developer • App Developer • UI Designer</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</header>
+
+<section id="about" class="about fade-in">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate Web and App Developer who builds modern, responsive, and user-friendly digital experiences. I specialize in clean UI design and efficient functionality.
+  </p>
+</section>
+
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
+  <div class="projects">
+    <a href="project1.html" class="project-card">
+      <h3>Travel Booking Website</h3>
+      <p>A modern platform for booking tours, hotels, and travel experiences.</p>
+    </a>
+    <a href="project2.html" class="project-card">
+      <h3>E-Commerce Store</h3>
+      <p>A stylish online fashion shopping experience with smooth UI.</p>
+    </a>
+    <a href="project3.html" class="project-card">
+      <h3>Finance Tracker App</h3>
+      <p>Track expenses, savings, and manage your financial goals easily.</p>
+    </a>
+  </div>
+</section>
+
+<section id="contact" class="contact fade-in">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:segenetmulatu76@gmail.com">segenetmulatu76@gmail.com</a></p>
+  <p>LinkedIn: <a href="#">Visit Profile</a></p>
+</section>
+
+<footer>
+  <p>© 2026 Segenet Mulatu | All Rights Reserved</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+      }
+    });
+  });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
