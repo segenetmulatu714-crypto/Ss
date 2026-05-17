@@ -8,12 +8,12 @@
 :root{
 
   /* BACKGROUNDS */
-  --bg-color:#f3eee8;          /* warm ivory */
-  --card-bg:#fcfaf7;           /* luxury cream */
+  --bg-color:#5D4537;          /* warm ivory */
+  --card-bg:#C0AC99;           /* luxury cream */
 
   /* TEXT */
-  --text:#2f2f2f;              /* charcoal */
-  --muted:#6f6f6f;             /* soft gray */
+  --text:#1D1511;              /* charcoal */
+  --muted:#000000;             /* soft gray */
 
   /* PRIMARY COLORS */
   --primary:#b68b4c;           /* muted gold */
